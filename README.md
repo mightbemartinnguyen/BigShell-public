@@ -55,6 +55,17 @@ If the PATH variable is changed, does it affect command lookup?
 Does the cd built-in update the PWD shell variable?
 ![Screenshot 12](baseshell/bs12.png)
 
+### Word Expansions 
+Are command words expanded properly?
+![Screenshot 13](baseshell/bs13.png)
+![Screenshot 13.1](baseshell/bs13.1.png)
+
+Are assignment values expanded properly?
+![Screenshot 14](baseshell/bs14.png)
+
+Are redirection filenames expanded properly?
+![Screenshot 15](baseshell/bs15.png)
+
 ## Learning Outcomes
 
 - Describe and use the Unix process API.
