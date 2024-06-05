@@ -18,18 +18,45 @@ With OSU Student Conduct guidelines I will have to keep the code in a private Gi
 ## Screenshots
 
 ### Built-in Commands
-### Does the exit built-in work appropriately? 
+Does the exit built-in work appropriately? 
 ![Screenshot 1](baseshell/bs1.png)
 ![Screenshot 2](baseshell/bs2.png)
 
-### Does the cd built-in work appropriately? 
+Does the cd built-in work appropriately? 
 ![Screenshot 3](baseshell/bs3.png)
 
-### If the HOME variable is modified, does the cd utility respond appropriately?
+If the HOME variable is modified, does the cd utility respond appropriately?
 ![Screenshot 4](baseshell/bs4.png)
 
-### Does the unset built-in work appropriately? [5%]
+Does the unset built-in work appropriately? [5%]
 ![Screenshot 5](baseshell/bs5.png)
+
+### Parameters and Variables
+
+If a variable is set with no command words, does it persist as an internal (not exported) shell variable?
+![Screenshot 6](baseshell/bs6.png)
+
+If a variable is exported with the export utility, does a child process that is executed have that variable set in its environment? 
+![Screenshot 7](baseshell/bs7.png)
+
+If a variable is set as part of a command, does the child process that is executed have that variable set in its environment (and only its environment)?
+![Screenshot 8](baseshell/bs8.png)
+
+If a foreground command is executed, does the $? special parameter get updated appropriately? 
+![Screenshot 9](baseshell/bs9.png)
+
+If a background command is executed, does the $! special parameter get updated appropriately? 
+![Screenshot 10](baseshell/bs10.png)
+
+If a foreground command is executed, does it not modify $!?
+![Screenshot 11](baseshell/bs11.png)
+
+If the PATH variable is changed, does it affect command lookup?
+![Screenshot 12](baseshell/bs12.png)
+
+Does the cd built-in update the PWD shell variable?
+![Screenshot 13](baseshell/bs13.png)
+![Screenshot 13.1](baseshell/bs13.1.png)
 
 ## Learning Outcomes
 
