@@ -52,7 +52,7 @@ With OSU Student Conduct guidelines I will have to keep the code in a private Gi
 ### If the PATH variable is changed, does it affect command lookup?
 ![Screenshot 11](baseshell/bs11.png)
 
-###Does the cd built-in update the PWD shell variable?
+### Does the cd built-in update the PWD shell variable?
 ![Screenshot 12](baseshell/bs12.png)
 
 ## Word Expansions 
