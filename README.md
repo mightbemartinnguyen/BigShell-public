@@ -69,22 +69,22 @@ Are redirection filenames expanded properly?
 ###Redirection
 - Note Each of the tests shown in this section assume that the file(s) being redirected do not initially exist.
 
-> operator creates a new file, and doesn’t overwrite existing file?
+">" operator creates a new file, and doesn’t overwrite existing file?
 ![Screenshot 16](baseshell/bs16.png)
 
->| operator creates a new file, and does overwrite existing file?
+">|" operator creates a new file, and does overwrite existing file?
 ![Screenshot 17](baseshell/bs17.png)
 
-< operator works appropriately?
+"<" operator works appropriately?
 ![Screenshot 18](baseshell/bs18.png)
 
-<> operator works appropriately?
+"<>" operator works appropriately?
 ![Screenshot 19](baseshell/bs19.png)
 
->> operator works appropriately
+">>" operator works appropriately
 ![Screenshot 20](baseshell/bs20.png)
 
->& operator works appropriately?
+">&" operator works appropriately?
 ![Screenshot 21](baseshell/bs21.png)
 
 Multiple redirections work appropriately?
