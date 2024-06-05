@@ -28,11 +28,10 @@ Does the cd built-in work appropriately?
 If the HOME variable is modified, does the cd utility respond appropriately?
 ![Screenshot 4](baseshell/bs4.png)
 
-Does the unset built-in work appropriately? [5%]
+Does the unset built-in work appropriately? 
 ![Screenshot 5](baseshell/bs5.png)
 
 ### Parameters and Variables
-
 If a variable is set with no command words, does it persist as an internal (not exported) shell variable?
 ![Screenshot 6](baseshell/bs6.png)
 
