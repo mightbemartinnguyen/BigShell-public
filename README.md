@@ -19,10 +19,10 @@ With OSU Student Conduct guidelines I will have to keep the code in a private Gi
 
 ### Built-in Commands
 Does the exit built-in work appropriately? 
-![Screenshot 1](baseshell/bs1.png)
+![Screenshot 1](baseshell/bs2.png)
 
 Does the cd built-in work appropriately? 
-![Screenshot 2](baseshell/bs2.png)
+![Screenshot 2](baseshell/bs1.png)
 
 If the HOME variable is modified, does the cd utility respond appropriately?
 ![Screenshot 3](baseshell/bs3.png)
