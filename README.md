@@ -17,8 +17,8 @@ With OSU Student Conduct guidelines I will have to keep the code in a private Gi
 
 ## Screenshots
 
-# Built-in Commands
-### Does the exit built-in work appropriately? 
+###Built-in Commands
+#### Does the exit built-in work appropriately? 
 ![Screenshot 1](baseshell/bs1.png)
 ![Screenshot 2](baseshell/bs2.png)
 
