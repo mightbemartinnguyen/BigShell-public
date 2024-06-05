@@ -66,8 +66,8 @@ Are assignment values expanded properly?
 Are redirection filenames expanded properly?
 ![Screenshot 15](baseshell/bs15.png)
 
-##Redirection 
-Note Each of the tests shown in this section assume that the file(s) being redirected do not initially exist.
+###Redirection
+###Note Each of the tests shown in this section assume that the file(s) being redirected do not initially exist.
 
 > operator creates a new file, and doesn’t overwrite existing file?
 ![Screenshot 16](baseshell/bs16.png)
