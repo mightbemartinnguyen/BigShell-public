@@ -37,7 +37,7 @@ If a variable is set with no command words, does it persist as an internal (not 
 If a variable is exported with the export utility, does a child process that is executed have that variable set in its environment? 
 ![Screenshot 6](baseshell/bs6.png)
 
-If a variable is set as part of a command, does the child process that is executed have that variable set in its environment (and only its environment)?
+### If a variable is set as part of a command, does the child process that is executed have that variable set in its environment (and only its environment)?
 ![Screenshot 7](baseshell/bs7.png)
 
 If a foreground command is executed, does the $? special parameter get updated appropriately? 
