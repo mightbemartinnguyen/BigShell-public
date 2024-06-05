@@ -17,45 +17,45 @@ With OSU Student Conduct guidelines I will have to keep the code in a private Gi
 
 ## Screenshots
 
-### Built-in Commands
-Does the exit built-in work appropriately? 
+## Built-in Commands
+### Does the exit built-in work appropriately? 
 ![Screenshot 1](baseshell/bs2.png)
 
-Does the cd built-in work appropriately? 
+### Does the cd built-in work appropriately? 
 ![Screenshot 2](baseshell/bs1.png)
 
-If the HOME variable is modified, does the cd utility respond appropriately?
+### If the HOME variable is modified, does the cd utility respond appropriately?
 ![Screenshot 3](baseshell/bs3.png)
 
-Does the unset built-in work appropriately? 
+### Does the unset built-in work appropriately? 
 ![Screenshot 4](baseshell/bs4.png)
 
-### Parameters and Variables
-If a variable is set with no command words, does it persist as an internal (not exported) shell variable?
+## Parameters and Variables
+### If a variable is set with no command words, does it persist as an internal (not exported) shell variable?
 ![Screenshot 5](baseshell/bs5.png)
 
-If a variable is exported with the export utility, does a child process that is executed have that variable set in its environment? 
+### If a variable is exported with the export utility, does a child process that is executed have that variable set in its environment? 
 ![Screenshot 6](baseshell/bs6.png)
 
 ### If a variable is set as part of a command, does the child process that is executed have that variable set in its environment (and only its environment)?
 ![Screenshot 7](baseshell/bs7.png)
 
-If a foreground command is executed, does the $? special parameter get updated appropriately? 
+### If a foreground command is executed, does the $? special parameter get updated appropriately? 
 ![Screenshot 8](baseshell/bs8.png)
 
-If a background command is executed, does the $! special parameter get updated appropriately? 
+### If a background command is executed, does the $! special parameter get updated appropriately? 
 ![Screenshot 9](baseshell/bs9.png)
 
-If a foreground command is executed, does it not modify $!?
+### If a foreground command is executed, does it not modify $!?
 ![Screenshot 10](baseshell/bs10.png)
 
-If the PATH variable is changed, does it affect command lookup?
+### If the PATH variable is changed, does it affect command lookup?
 ![Screenshot 11](baseshell/bs11.png)
 
-Does the cd built-in update the PWD shell variable?
+###Does the cd built-in update the PWD shell variable?
 ![Screenshot 12](baseshell/bs12.png)
 
-### Word Expansions 
+## Word Expansions 
 Are command words expanded properly?
 ![Screenshot 13](baseshell/bs13.png)
 ![Screenshot 13.1](baseshell/bs13.1.png)
@@ -66,7 +66,7 @@ Are assignment values expanded properly?
 Are redirection filenames expanded properly?
 ![Screenshot 15](baseshell/bs15.png)
 
-##Redirection
+## Redirection
 - Note Each of the tests shown in this section assume that the file(s) being redirected do not initially exist.
 
 ### ">" operator creates a new file, and doesn’t overwrite existing file?
@@ -90,14 +90,14 @@ Are redirection filenames expanded properly?
 ### Multiple redirections work appropriately?
 ![Screenshot 22](baseshell/bs22.png)
 
-### Pipelines
+## Pipelines
 ### Pipelines work appropriately?
 ![Screenshot 23](baseshell/bs23.png)
 
 ### Pipelines work with redirects?
 ![Screenshot 24](baseshell/bs24.png)
 
-### Synchronous Commands 
+## Synchronous Commands 
 ### Synchronous commands run in foreground (BigShell waits on them)?
 ![Screenshot 25](baseshell/bs25.png)
 ![Screenshot 25.1](baseshell/bs25.1.png)
@@ -105,7 +105,7 @@ Are redirection filenames expanded properly?
 ### Sending stop signal to synchronous commands causes them to be stopped and placed in the background?
 ![Screenshot 26](baseshell/bs26.png)
 
-### Signals  
+## Signals  
 ### BigShell ignores the SIGTSTP, SIGINT, and SIGTTOU signals?
 ![Screenshot 27](baseshell/bs27.png)
 
