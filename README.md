@@ -66,6 +66,30 @@ Are assignment values expanded properly?
 Are redirection filenames expanded properly?
 ![Screenshot 15](baseshell/bs15.png)
 
+##Redirection 
+Note Each of the tests shown in this section assume that the file(s) being redirected do not initially exist.
+
+> operator creates a new file, and doesn’t overwrite existing file?
+![Screenshot 16](baseshell/bs16.png)
+
+>| operator creates a new file, and does overwrite existing file?
+![Screenshot 17](baseshell/bs17.png)
+
+< operator works appropriately?
+![Screenshot 18](baseshell/bs18.png)
+
+<> operator works appropriately?
+![Screenshot 19](baseshell/bs19.png)
+
+>> operator works appropriately
+![Screenshot 20](baseshell/bs20.png)
+
+>& operator works appropriately?
+![Screenshot 21](baseshell/bs21.png)
+
+Multiple redirections work appropriately?
+![Screenshot 22](baseshell/bs22.png)
+
 ## Learning Outcomes
 
 - Describe and use the Unix process API.
