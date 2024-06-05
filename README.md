@@ -66,50 +66,50 @@ Are assignment values expanded properly?
 Are redirection filenames expanded properly?
 ![Screenshot 15](baseshell/bs15.png)
 
-###Redirection
+##Redirection
 - Note Each of the tests shown in this section assume that the file(s) being redirected do not initially exist.
 
-">" operator creates a new file, and doesn’t overwrite existing file?
+### ">" operator creates a new file, and doesn’t overwrite existing file?
 ![Screenshot 16](baseshell/bs16.png)
 
-">|" operator creates a new file, and does overwrite existing file?
+### ">|" operator creates a new file, and does overwrite existing file?
 ![Screenshot 17](baseshell/bs17.png)
 
-"<" operator works appropriately?
+### "<" operator works appropriately?
 ![Screenshot 18](baseshell/bs18.png)
 
-"<>" operator works appropriately?
+### "<>" operator works appropriately?
 ![Screenshot 19](baseshell/bs19.png)
 
-">>" operator works appropriately
+### ">>" operator works appropriately
 ![Screenshot 20](baseshell/bs20.png)
 
-">&" operator works appropriately?
+### ">&" operator works appropriately?
 ![Screenshot 21](baseshell/bs21.png)
 
-Multiple redirections work appropriately?
+### Multiple redirections work appropriately?
 ![Screenshot 22](baseshell/bs22.png)
 
 ### Pipelines
-Pipelines work appropriately?
+### Pipelines work appropriately?
 ![Screenshot 23](baseshell/bs23.png)
 
-Pipelines work with redirects?
+### Pipelines work with redirects?
 ![Screenshot 24](baseshell/bs24.png)
 
 ### Synchronous Commands 
-Synchronous commands run in foreground (BigShell waits on them)?
+### Synchronous commands run in foreground (BigShell waits on them)?
 ![Screenshot 25](baseshell/bs25.png)
 ![Screenshot 25.1](baseshell/bs25.1.png)
 
-Sending stop signal to synchronous commands causes them to be stopped and placed in the background?
+### Sending stop signal to synchronous commands causes them to be stopped and placed in the background?
 ![Screenshot 26](baseshell/bs26.png)
 
 ### Signals  
-BigShell ignores the SIGTSTP, SIGINT, and SIGTTOU signals?
+### BigShell ignores the SIGTSTP, SIGINT, and SIGTTOU signals?
 ![Screenshot 27](baseshell/bs27.png)
 
-Child processes don’t ignore these signals?
+### Child processes don’t ignore these signals?
 ![Screenshot 28](baseshell/bs28.png)
 
 ## Learning Outcomes
