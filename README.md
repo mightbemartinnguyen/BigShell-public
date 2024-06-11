@@ -1,6 +1,6 @@
 ## Overview
 
-BigShell is a POSIX-like shell program that demonstrates important process concepts. This project involves parsing command-line input, executing commands, implementing built-in commands, performing I/O redirection, managing shell variables, handling signals, and implementing job control.
+BigShell is a POSIX-like shell program that demonstrates important process concepts. Involves parsing command-line input, executing commands, implementing built-in commands, performing I/O redirection, managing shell variables, handling signals, and implementing job control.
 
 ## PLEASE NOTE
 With OSU Student Conduct guidelines I will have to keep the code in a private Github Rep. 
@@ -166,19 +166,14 @@ Are redirection filenames expanded properly?
 - Ensure robust error handling and user-friendly messages.
 
 ## Credits
-Skeleton Code provided by Ryan Gambord, with Martin Nguyen implementing the 
+Skeleton Code provided by Ryan Gambord, 
+
+with Martin Nguyen implementing the 
 - Built-in Commands
-
 - Non-built-in commands
-
 - Foreground/Background process waiting
-
 - Redirection
-
 - Pipelines
-
 - Variable Assignment
-
 - Signal Handling
-
 - Job Control Functionality
